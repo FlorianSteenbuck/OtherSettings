@@ -2,7 +2,7 @@ package com.github.FlorianSteenbuck.other.settings.model.settings;
 
 import com.github.FlorianSteenbuck.other.settings.exceptions.UnsupportedSettingValueException;
 import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.interfaces.SettingProvider;
 import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.WriteableSettings;
 
 import java.util.ArrayList;

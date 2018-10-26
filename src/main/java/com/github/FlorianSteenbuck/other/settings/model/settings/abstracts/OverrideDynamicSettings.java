@@ -1,15 +1,13 @@
 package com.github.FlorianSteenbuck.other.settings.model.settings.abstracts;
 
 import com.github.FlorianSteenbuck.other.settings.exceptions.WrongSettingsDataException;
-import com.github.FlorianSteenbuck.other.settings.model.provider.BooleanCheckboxProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.NumberInputProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
-import com.github.FlorianSteenbuck.other.settings.model.provider.StringLineProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.single.BooleanCheckboxProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.single.NumberInputProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.interfaces.SettingProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.single.StringLineProvider;
+import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public abstract class OverrideDynamicSettings extends PreSupportDynamicWriteableSettings {
     protected Map<String, SettingProvider> liveProviders = new HashMap<String, SettingProvider>();

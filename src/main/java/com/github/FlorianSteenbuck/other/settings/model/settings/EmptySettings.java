@@ -1,6 +1,6 @@
 package com.github.FlorianSteenbuck.other.settings.model.settings;
 
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.interfaces.SettingProvider;
 import com.github.FlorianSteenbuck.other.settings.model.settings.interfaces.Settings;
 
 import java.util.ArrayList;

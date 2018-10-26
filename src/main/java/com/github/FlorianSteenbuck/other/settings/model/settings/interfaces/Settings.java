@@ -1,6 +1,6 @@
 package com.github.FlorianSteenbuck.other.settings.model.settings.interfaces;
 
-import com.github.FlorianSteenbuck.other.settings.model.provider.SettingProvider;
+import com.github.FlorianSteenbuck.other.settings.model.provider.interfaces.SettingProvider;
 
 import java.util.Collection;
 import java.util.Map;
